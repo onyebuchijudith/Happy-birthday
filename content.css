@@ -98,8 +98,8 @@ body{
 }
 
 .leftsidetexts p{
-    background: #262629;
-    /* background: #2b91fe; */
+    /* background: #262629; */
+    background: #2b91fe;
     border-radius:15px;
     margin-left: 80px;
     margin-right: 80px;

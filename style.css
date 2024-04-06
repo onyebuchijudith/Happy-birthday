@@ -179,9 +179,6 @@ section h1{
    background-position: center;
    background-size: cover;
 }
-.photo.us h1{
-    color: #ab8484;
-}
 
 .photo.years, .photo.us, .photo.moment {
     transition: var(--speed) all ease-in-out;

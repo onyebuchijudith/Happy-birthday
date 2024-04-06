@@ -68,7 +68,7 @@ width: 70px;
 .carousel-item img{
     height: 450px;
     margin-top: -10px;
-    /*  */
+    
 }
 
 .carousel-item video{
@@ -92,7 +92,7 @@ width: 70px;
     display: flex;
 } 
 
- .fade-in {
+ .fade-in{
     opacity: 0;
     transition: opacity 250ms ease-in;
   }

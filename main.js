@@ -50,10 +50,9 @@ middle.addEventListener('mouseleave', () => {
     container.classList.remove('hover-middle');
 });
 
-// const appearOptions = {
-//     threshold: 1,
-//     // rootMargin: "0px 0px 0px 0px"
-// };
+const appearOptions = {
+    threshold: 1,
+rootMargin: "0px 0px 0px 0px" };
 
 // const appearOnScroll = new IntersectionObserver(function(
 //     entries,
@@ -70,6 +69,6 @@ middle.addEventListener('mouseleave', () => {
 //   },
 //   appearOptions);
   
-//   faders.forEach(fader => {
-//     appearOnScroll.observe(fader);
-//   });
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+   });

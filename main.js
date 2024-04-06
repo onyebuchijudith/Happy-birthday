@@ -55,6 +55,7 @@ middle.addEventListener('mouseleave', () => {
       rootMargin: "0px 0px 0px 0px"
  };
 
+
 // const appearOnScroll = new IntersectionObserver(function(
 //     entries,
 //     appearOnScroll
@@ -70,5 +71,6 @@ middle.addEventListener('mouseleave', () => {
 //   },
 //   appearOptions);
   
-faders.forEach(fader => {
-  appearOnScroll.observe(fader);  });
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+   }); 
